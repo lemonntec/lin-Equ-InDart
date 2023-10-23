@@ -2,12 +2,12 @@ import 'dart:io';
 
 void main() {
   //This Code is used to Solve Linear Equation
-  print('********************************************************');
-  print('*****SOLUTION TO LINEAR EQUATIONS OF TWO VARIABLES******');
-  print('**************Matthew Miracle Chinedum******************');
+  print('*****************************************************************');
+  print('***SOLUTION TO SIMULTANEOUS EQUATIONS OF TWO UNKNOWN VARIABLES***');
+  print('*******************Matthew Miracle Chinedum**********************');
   print(''); //This line gives a space before the inputs
   print(
-      'WELCOME! This Program helps you to solve your linear Equations of two variables');
+      'WELCOME! This Program helps you to solve your simultenous linear Equations of two unknown variables\n');
   print('Please Enter Your Name: ');
   var name = stdin.readLineSync();
   print('');
@@ -17,22 +17,22 @@ void main() {
 }
 
 LinearEquation() {
-  print('Enter a1:');
+  print('Enter a1: (NB: coefficient of X in the first Equation)');
   var a1 = int.parse(stdin.readLineSync()!);
 
-  print('Enter b1:');
+  print('Enter b1: (NB: coefficient of Y in the first Equation)');
   var b1 = int.parse(stdin.readLineSync()!);
 
-  print('Enter a2:');
+  print('Enter a2: (NB: coefficient of X in the second Equation)');
   var a2 = int.parse(stdin.readLineSync()!);
 
-  print('Enter b2:');
+  print('Enter b2: (NB: coefficient of X in the second Equation)');
   var b2 = int.parse(stdin.readLineSync()!);
 
-  print('Enter c1:');
+  print('Enter c1: (NB: constant in the first equation)');
   var c1 = int.parse(stdin.readLineSync()!);
 
-  print('Enter c2:');
+  print('Enter c2: (NB: constant in the second equation)');
   var c2 = int.parse(stdin.readLineSync()!);
 
   var det = a1 * b2 - a2 * b1;
